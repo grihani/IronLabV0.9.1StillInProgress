@@ -1,0 +1,1073 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48214D7D1B3F3281003C1B9A /* HomePageAccountToFollowTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48214D7C1B3F3281003C1B9A /* HomePageAccountToFollowTestTableViewCell.swift */; };
+		482DAC5A1B3FE7800091EBED /* LocationOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482DAC591B3FE7800091EBED /* LocationOfMeetingViewController.swift */; };
+		482DAC5E1B4062250091EBED /* MeetingsOfAccountInOpportunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482DAC5D1B4062250091EBED /* MeetingsOfAccountInOpportunityViewController.swift */; };
+		484956D11B37F33F00DD8B7C /* AccountsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849566A1B37F33F00DD8B7C /* AccountsModel.swift */; };
+		484956D21B37F33F00DD8B7C /* ActionPlanOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849566B1B37F33F00DD8B7C /* ActionPlanOfMeetingViewController.swift */; };
+		484956D31B37F33F00DD8B7C /* ActivitiesOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849566C1B37F33F00DD8B7C /* ActivitiesOfAccountViewController.swift */; };
+		484956D41B37F33F00DD8B7C /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849566D1B37F33F00DD8B7C /* ActivityModel.swift */; };
+		484956D51B37F33F00DD8B7C /* AddParticipantsToMeetingOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849566E1B37F33F00DD8B7C /* AddParticipantsToMeetingOfAccountViewController.swift */; };
+		484956D61B37F33F00DD8B7C /* AgendaMeetingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849566F1B37F33F00DD8B7C /* AgendaMeetingModel.swift */; };
+		484956D71B37F33F00DD8B7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956701B37F33F00DD8B7C /* AppDelegate.swift */; };
+		484956D81B37F33F00DD8B7C /* AttachmentsOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956711B37F33F00DD8B7C /* AttachmentsOfMeetingViewController.swift */; };
+		484956D91B37F33F00DD8B7C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956721B37F33F00DD8B7C /* CalendarView.swift */; };
+		484956DA1B37F33F00DD8B7C /* CellForPipelineOfAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956731B37F33F00DD8B7C /* CellForPipelineOfAccountTableViewCell.swift */; };
+		484956DB1B37F33F00DD8B7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956741B37F33F00DD8B7C /* Constants.swift */; };
+		484956DC1B37F33F00DD8B7C /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956751B37F33F00DD8B7C /* ContactsModel.swift */; };
+		484956DD1B37F33F00DD8B7C /* ContactsOfAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956761B37F33F00DD8B7C /* ContactsOfAccountTableViewCell.swift */; };
+		484956DE1B37F33F00DD8B7C /* ContactsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956771B37F33F00DD8B7C /* ContactsOfAccountViewController.swift */; };
+		484956DF1B37F33F00DD8B7C /* ContainedMeetingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956781B37F33F00DD8B7C /* ContainedMeetingsTableViewController.swift */; };
+		484956E01B37F33F00DD8B7C /* ContainerForAccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956791B37F33F00DD8B7C /* ContainerForAccountDetails.swift */; };
+		484956E11B37F33F00DD8B7C /* ContratModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849567A1B37F33F00DD8B7C /* ContratModel.swift */; };
+		484956E21B37F33F00DD8B7C /* DetailsOfAccountAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849567B1B37F33F00DD8B7C /* DetailsOfAccountAPI.swift */; };
+		484956E31B37F33F00DD8B7C /* DetailsOfAccountDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849567C1B37F33F00DD8B7C /* DetailsOfAccountDataManager.swift */; };
+		484956E41B37F33F00DD8B7C /* DetailsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849567D1B37F33F00DD8B7C /* DetailsOfAccountViewController.swift */; };
+		484956E51B37F33F00DD8B7C /* DetailsOfContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849567E1B37F33F00DD8B7C /* DetailsOfContactViewController.swift */; };
+		484956E61B37F33F00DD8B7C /* DetailsOfMeetingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849567F1B37F33F00DD8B7C /* DetailsOfMeetingAPI.swift */; };
+		484956E71B37F33F00DD8B7C /* DetailsOfMeetingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956801B37F33F00DD8B7C /* DetailsOfMeetingDataManager.swift */; };
+		484956E81B37F33F00DD8B7C /* DetailsOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956811B37F33F00DD8B7C /* DetailsOfMeetingViewController.swift */; };
+		484956E91B37F33F00DD8B7C /* DetailsOfOpportunityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956821B37F33F00DD8B7C /* DetailsOfOpportunityAPI.swift */; };
+		484956EA1B37F33F00DD8B7C /* DetailsOfOpportunityDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956831B37F33F00DD8B7C /* DetailsOfOpportunityDataManager.swift */; };
+		484956EB1B37F33F00DD8B7C /* DetailsOfOpportunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956841B37F33F00DD8B7C /* DetailsOfOpportunityViewController.swift */; };
+		484956EC1B37F33F00DD8B7C /* DocumentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956851B37F33F00DD8B7C /* DocumentsTableViewCell.swift */; };
+		484956ED1B37F33F00DD8B7C /* DoughnutsForVue360.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956861B37F33F00DD8B7C /* DoughnutsForVue360.swift */; };
+		484956EE1B37F33F00DD8B7C /* EurosClassificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956871B37F33F00DD8B7C /* EurosClassificationView.swift */; };
+		484956EF1B37F33F00DD8B7C /* FirstStepCreatingMeetingOfAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956881B37F33F00DD8B7C /* FirstStepCreatingMeetingOfAccount.swift */; };
+		484956F11B37F33F00DD8B7C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849568A1B37F33F00DD8B7C /* FMDatabase.m */; };
+		484956F31B37F33F00DD8B7C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849568C1B37F33F00DD8B7C /* FMDatabaseAdditions.m */; };
+		484956F51B37F33F00DD8B7C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4849568E1B37F33F00DD8B7C /* FMDatabasePool.m */; };
+		484956F71B37F33F00DD8B7C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 484956901B37F33F00DD8B7C /* FMDatabaseQueue.m */; };
+		484956FA1B37F33F00DD8B7C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 484956931B37F33F00DD8B7C /* FMResultSet.m */; };
+		484956FB1B37F33F00DD8B7C /* GraphViewForVue360.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956941B37F33F00DD8B7C /* GraphViewForVue360.swift */; };
+		484956FC1B37F33F00DD8B7C /* HomePageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956951B37F33F00DD8B7C /* HomePageDataManager.swift */; };
+		484956FD1B37F33F00DD8B7C /* HomePageMeetingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956961B37F33F00DD8B7C /* HomePageMeetingsTableViewCell.swift */; };
+		484956FE1B37F33F00DD8B7C /* HomePageV2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956971B37F33F00DD8B7C /* HomePageV2ViewController.swift */; };
+		484956FF1B37F33F00DD8B7C /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956981B37F33F00DD8B7C /* HomePageViewController.swift */; };
+		484957001B37F33F00DD8B7C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 484956991B37F33F00DD8B7C /* Info.plist */; };
+		484957021B37F33F00DD8B7C /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849569B1B37F33F00DD8B7C /* LoadingIndicator.swift */; };
+		484957031B37F33F00DD8B7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849569C1B37F33F00DD8B7C /* LoginViewController.swift */; };
+		484957041B37F33F00DD8B7C /* MapForMeetingsOfDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849569D1B37F33F00DD8B7C /* MapForMeetingsOfDayViewController.swift */; };
+		484957051B37F33F00DD8B7C /* MapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849569E1B37F33F00DD8B7C /* MapManager.swift */; };
+		484957061B37F33F00DD8B7C /* mapPositionOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4849569F1B37F33F00DD8B7C /* mapPositionOfAccountViewController.swift */; };
+		484957071B37F33F00DD8B7C /* MeetingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A01B37F33F00DD8B7C /* MeetingsModel.swift */; };
+		484957081B37F33F00DD8B7C /* MeetingsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A11B37F33F00DD8B7C /* MeetingsOfAccountViewController.swift */; };
+		484957091B37F33F00DD8B7C /* MeetingsOfHomePageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A21B37F33F00DD8B7C /* MeetingsOfHomePageAPI.swift */; };
+		4849570A1B37F33F00DD8B7C /* OpportunityActivitiesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A31B37F33F00DD8B7C /* OpportunityActivitiesAPI.swift */; };
+		4849570B1B37F33F00DD8B7C /* OpportunityActivitiesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A41B37F33F00DD8B7C /* OpportunityActivitiesDataManager.swift */; };
+		4849570C1B37F33F00DD8B7C /* OpportunityActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A51B37F33F00DD8B7C /* OpportunityActivitiesTableViewCell.swift */; };
+		4849570D1B37F33F00DD8B7C /* OpportunityActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A61B37F33F00DD8B7C /* OpportunityActivitiesViewController.swift */; };
+		4849570E1B37F33F00DD8B7C /* OpportunityContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A71B37F33F00DD8B7C /* OpportunityContactsViewController.swift */; };
+		4849570F1B37F33F00DD8B7C /* OpportunityDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A81B37F33F00DD8B7C /* OpportunityDetailsViewController.swift */; };
+		484957101B37F33F00DD8B7C /* OpportunityMeetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956A91B37F33F00DD8B7C /* OpportunityMeetingsViewController.swift */; };
+		484957111B37F33F00DD8B7C /* OpportunityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956AA1B37F33F00DD8B7C /* OpportunityModel.swift */; };
+		484957121B37F33F00DD8B7C /* OpportunityQuotesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956AB1B37F33F00DD8B7C /* OpportunityQuotesAPI.swift */; };
+		484957131B37F33F00DD8B7C /* OpportunityQuotesDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956AC1B37F33F00DD8B7C /* OpportunityQuotesDataManager.swift */; };
+		484957141B37F33F00DD8B7C /* OpportunityQuotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956AD1B37F33F00DD8B7C /* OpportunityQuotesTableViewCell.swift */; };
+		484957151B37F33F00DD8B7C /* OpportunityQuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956AE1B37F33F00DD8B7C /* OpportunityQuotesViewController.swift */; };
+		484957161B37F33F00DD8B7C /* ParticipantsOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956AF1B37F33F00DD8B7C /* ParticipantsOfMeetingViewController.swift */; };
+		484957171B37F33F00DD8B7C /* PipelineOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B01B37F33F00DD8B7C /* PipelineOfAccountViewController.swift */; };
+		484957181B37F33F00DD8B7C /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B11B37F33F00DD8B7C /* ProductTableViewCell.swift */; };
+		484957191B37F33F00DD8B7C /* RssFeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B21B37F33F00DD8B7C /* RssFeedTableViewCell.swift */; };
+		4849571A1B37F33F00DD8B7C /* RssFeedWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B31B37F33F00DD8B7C /* RssFeedWebViewController.swift */; };
+		4849571B1B37F33F00DD8B7C /* SearchAccountsPerMeetingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B41B37F33F00DD8B7C /* SearchAccountsPerMeetingsTableViewCell.swift */; };
+		4849571C1B37F33F00DD8B7C /* SearchAccountsPerNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B51B37F33F00DD8B7C /* SearchAccountsPerNameTableViewCell.swift */; };
+		4849571D1B37F33F00DD8B7C /* SearchForAccountsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B61B37F33F00DD8B7C /* SearchForAccountsAPI.swift */; };
+		4849571E1B37F33F00DD8B7C /* SearchForAccountsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B71B37F33F00DD8B7C /* SearchForAccountsDataManager.swift */; };
+		4849571F1B37F33F00DD8B7C /* SearchForAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B81B37F33F00DD8B7C /* SearchForAccountsViewController.swift */; };
+		484957201B37F33F00DD8B7C /* SearchForContactsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956B91B37F33F00DD8B7C /* SearchForContactsAPI.swift */; };
+		484957211B37F33F00DD8B7C /* SearchForContactsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956BA1B37F33F00DD8B7C /* SearchForContactsDataManager.swift */; };
+		484957221B37F33F00DD8B7C /* SearchForContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956BB1B37F33F00DD8B7C /* SearchForContactsViewController.swift */; };
+		484957231B37F33F00DD8B7C /* SearchForMeetingsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956BC1B37F33F00DD8B7C /* SearchForMeetingsAPI.swift */; };
+		484957241B37F33F00DD8B7C /* SearchForMeetingsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956BD1B37F33F00DD8B7C /* SearchForMeetingsDataManager.swift */; };
+		484957251B37F33F00DD8B7C /* SearchForMeetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956BE1B37F33F00DD8B7C /* SearchForMeetingsViewController.swift */; };
+		484957271B37F33F00DD8B7C /* SearchListOfOpportunityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C01B37F33F00DD8B7C /* SearchListOfOpportunityAPI.swift */; };
+		484957281B37F33F00DD8B7C /* SearchListOfOpportunityAToZTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C11B37F33F00DD8B7C /* SearchListOfOpportunityAToZTableViewCell.swift */; };
+		484957291B37F33F00DD8B7C /* SearchListOfOpportunityCloseDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C21B37F33F00DD8B7C /* SearchListOfOpportunityCloseDateTableViewCell.swift */; };
+		4849572A1B37F33F00DD8B7C /* SearchListOfOpportunityDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C31B37F33F00DD8B7C /* SearchListOfOpportunityDataManager.swift */; };
+		4849572B1B37F33F00DD8B7C /* SearchListOfOpportunityStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C41B37F33F00DD8B7C /* SearchListOfOpportunityStatusTableViewCell.swift */; };
+		4849572C1B37F33F00DD8B7C /* SearchListOfOpportunityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C51B37F33F00DD8B7C /* SearchListOfOpportunityTableViewController.swift */; };
+		4849572D1B37F33F00DD8B7C /* SubDetailsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C61B37F33F00DD8B7C /* SubDetailsOfAccountViewController.swift */; };
+		4849572E1B37F33F00DD8B7C /* SubDetailsOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956C71B37F33F00DD8B7C /* SubDetailsOfMeetingViewController.swift */; };
+		484957301B37F33F00DD8B7C /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484956C91B37F33F00DD8B7C /* SWRevealViewController.m */; };
+		484957311B37F33F00DD8B7C /* UnderLinedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956CA1B37F33F00DD8B7C /* UnderLinedLabel.swift */; };
+		484957321B37F33F00DD8B7C /* Vue360OfAccountOfMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956CB1B37F33F00DD8B7C /* Vue360OfAccountOfMeetingViewController.swift */; };
+		484957331B37F33F00DD8B7C /* Vue360OfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956CC1B37F33F00DD8B7C /* Vue360OfAccountViewController.swift */; };
+		484957341B37F33F00DD8B7C /* WebsiteOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956CD1B37F33F00DD8B7C /* WebsiteOfAccountViewController.swift */; };
+		484957351B37F33F00DD8B7C /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484956CE1B37F33F00DD8B7C /* XMLParser.swift */; };
+		484957371B37F33F00DD8B7C /* images.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 484956D01B37F33F00DD8B7C /* images.xcassets */; };
+		4849574F1B37FF7D00DD8B7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4849574D1B37FF7D00DD8B7C /* LaunchScreen.xib */; };
+		484957551B3832FB00DD8B7C /* DataBase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 484957541B3832FB00DD8B7C /* DataBase.sqlite */; };
+		484957581B383A2600DD8B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484957561B383A2600DD8B7C /* Main.storyboard */; };
+		4849575A1B383E5B00DD8B7C /* CallReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484957591B383E5B00DD8B7C /* CallReportViewController.swift */; };
+		489EDD4C1B3B0C3200F1E422 /* ParticipantsToMeetingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489EDD4B1B3B0C3200F1E422 /* ParticipantsToMeetingTableViewCell.swift */; };
+		48A11FF81B0F075B004EB147 /* IronLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A11FF71B0F075B004EB147 /* IronLabTests.swift */; };
+		48B2F1BB1B3C44880000D55E /* HomePageAccountToFollowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2F1BA1B3C44880000D55E /* HomePageAccountToFollowTableViewCell.swift */; };
+		48B555911B394FF900611975 /* MissingDocumentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B555901B394FF900611975 /* MissingDocumentsTableViewCell.swift */; };
+		48B555931B396F9500611975 /* HomePageOpportunitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B555921B396F9500611975 /* HomePageOpportunitiesTableViewCell.swift */; };
+		48B5559B1B398A6000611975 /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B555971B398A6000611975 /* AddTask.swift */; };
+		48B5559C1B398A6000611975 /* UpdateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B555981B398A6000611975 /* UpdateTaskViewController.swift */; };
+		48B5559E1B398A8700611975 /* ActivitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5559D1B398A8700611975 /* ActivitiesModel.swift */; };
+		48B555A01B398D7000611975 /* CellTabOfTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5559F1B398D7000611975 /* CellTabOfTasks.swift */; };
+		48B555A21B398DA600611975 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B555A11B398DA600611975 /* TaskViewController.swift */; };
+		9F45029F1B1F9A8E00D1C6AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F45029E1B1F9A8D00D1C6AF /* MapKit.framework */; };
+		9FEE7B3E1B124D7100FE4D58 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE7B3D1B124D7100FE4D58 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48A11FF21B0F075B004EB147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A11FD41B0F075B004EB147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A11FDB1B0F075B004EB147;
+			remoteInfo = IronLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48214D7C1B3F3281003C1B9A /* HomePageAccountToFollowTestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePageAccountToFollowTestTableViewCell.swift; path = ironlab/HomePageAccountToFollowTestTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		482DAC591B3FE7800091EBED /* LocationOfMeetingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationOfMeetingViewController.swift; path = ironlab/LocationOfMeetingViewController.swift; sourceTree = SOURCE_ROOT; };
+		482DAC5D1B4062250091EBED /* MeetingsOfAccountInOpportunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeetingsOfAccountInOpportunityViewController.swift; path = ironlab/MeetingsOfAccountInOpportunityViewController.swift; sourceTree = SOURCE_ROOT; };
+		4849566A1B37F33F00DD8B7C /* AccountsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountsModel.swift; path = ../ironlab/AccountsModel.swift; sourceTree = "<group>"; };
+		4849566B1B37F33F00DD8B7C /* ActionPlanOfMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActionPlanOfMeetingViewController.swift; path = ../ironlab/ActionPlanOfMeetingViewController.swift; sourceTree = "<group>"; };
+		4849566C1B37F33F00DD8B7C /* ActivitiesOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivitiesOfAccountViewController.swift; path = ../ironlab/ActivitiesOfAccountViewController.swift; sourceTree = "<group>"; };
+		4849566D1B37F33F00DD8B7C /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityModel.swift; path = ../ironlab/ActivityModel.swift; sourceTree = "<group>"; };
+		4849566E1B37F33F00DD8B7C /* AddParticipantsToMeetingOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddParticipantsToMeetingOfAccountViewController.swift; path = ../ironlab/AddParticipantsToMeetingOfAccountViewController.swift; sourceTree = "<group>"; };
+		4849566F1B37F33F00DD8B7C /* AgendaMeetingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AgendaMeetingModel.swift; path = ../ironlab/AgendaMeetingModel.swift; sourceTree = "<group>"; };
+		484956701B37F33F00DD8B7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../ironlab/AppDelegate.swift; sourceTree = "<group>"; };
+		484956711B37F33F00DD8B7C /* AttachmentsOfMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AttachmentsOfMeetingViewController.swift; path = ../ironlab/AttachmentsOfMeetingViewController.swift; sourceTree = "<group>"; };
+		484956721B37F33F00DD8B7C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = ../ironlab/CalendarView.swift; sourceTree = "<group>"; };
+		484956731B37F33F00DD8B7C /* CellForPipelineOfAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CellForPipelineOfAccountTableViewCell.swift; path = ../ironlab/CellForPipelineOfAccountTableViewCell.swift; sourceTree = "<group>"; };
+		484956741B37F33F00DD8B7C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../ironlab/Constants.swift; sourceTree = "<group>"; };
+		484956751B37F33F00DD8B7C /* ContactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsModel.swift; path = ../ironlab/ContactsModel.swift; sourceTree = "<group>"; };
+		484956761B37F33F00DD8B7C /* ContactsOfAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsOfAccountTableViewCell.swift; path = ../ironlab/ContactsOfAccountTableViewCell.swift; sourceTree = "<group>"; };
+		484956771B37F33F00DD8B7C /* ContactsOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContactsOfAccountViewController.swift; path = ../ironlab/ContactsOfAccountViewController.swift; sourceTree = "<group>"; };
+		484956781B37F33F00DD8B7C /* ContainedMeetingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContainedMeetingsTableViewController.swift; path = ../ironlab/ContainedMeetingsTableViewController.swift; sourceTree = "<group>"; };
+		484956791B37F33F00DD8B7C /* ContainerForAccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContainerForAccountDetails.swift; path = ../ironlab/ContainerForAccountDetails.swift; sourceTree = "<group>"; };
+		4849567A1B37F33F00DD8B7C /* ContratModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContratModel.swift; path = ../ironlab/ContratModel.swift; sourceTree = "<group>"; };
+		4849567B1B37F33F00DD8B7C /* DetailsOfAccountAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfAccountAPI.swift; path = ../ironlab/DetailsOfAccountAPI.swift; sourceTree = "<group>"; };
+		4849567C1B37F33F00DD8B7C /* DetailsOfAccountDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfAccountDataManager.swift; path = ../ironlab/DetailsOfAccountDataManager.swift; sourceTree = "<group>"; };
+		4849567D1B37F33F00DD8B7C /* DetailsOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfAccountViewController.swift; path = ../ironlab/DetailsOfAccountViewController.swift; sourceTree = "<group>"; };
+		4849567E1B37F33F00DD8B7C /* DetailsOfContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfContactViewController.swift; path = ../ironlab/DetailsOfContactViewController.swift; sourceTree = "<group>"; };
+		4849567F1B37F33F00DD8B7C /* DetailsOfMeetingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfMeetingAPI.swift; path = ../ironlab/DetailsOfMeetingAPI.swift; sourceTree = "<group>"; };
+		484956801B37F33F00DD8B7C /* DetailsOfMeetingDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfMeetingDataManager.swift; path = ../ironlab/DetailsOfMeetingDataManager.swift; sourceTree = "<group>"; };
+		484956811B37F33F00DD8B7C /* DetailsOfMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfMeetingViewController.swift; path = ../ironlab/DetailsOfMeetingViewController.swift; sourceTree = "<group>"; };
+		484956821B37F33F00DD8B7C /* DetailsOfOpportunityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfOpportunityAPI.swift; path = ../ironlab/DetailsOfOpportunityAPI.swift; sourceTree = "<group>"; };
+		484956831B37F33F00DD8B7C /* DetailsOfOpportunityDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfOpportunityDataManager.swift; path = ../ironlab/DetailsOfOpportunityDataManager.swift; sourceTree = "<group>"; };
+		484956841B37F33F00DD8B7C /* DetailsOfOpportunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsOfOpportunityViewController.swift; path = ../ironlab/DetailsOfOpportunityViewController.swift; sourceTree = "<group>"; };
+		484956851B37F33F00DD8B7C /* DocumentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DocumentsTableViewCell.swift; path = ../ironlab/DocumentsTableViewCell.swift; sourceTree = "<group>"; };
+		484956861B37F33F00DD8B7C /* DoughnutsForVue360.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DoughnutsForVue360.swift; path = ../ironlab/DoughnutsForVue360.swift; sourceTree = "<group>"; };
+		484956871B37F33F00DD8B7C /* EurosClassificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EurosClassificationView.swift; path = ../ironlab/EurosClassificationView.swift; sourceTree = "<group>"; };
+		484956881B37F33F00DD8B7C /* FirstStepCreatingMeetingOfAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirstStepCreatingMeetingOfAccount.swift; path = ../ironlab/FirstStepCreatingMeetingOfAccount.swift; sourceTree = "<group>"; };
+		484956891B37F33F00DD8B7C /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../ironlab/FMDatabase.h; sourceTree = "<group>"; };
+		4849568A1B37F33F00DD8B7C /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../ironlab/FMDatabase.m; sourceTree = "<group>"; };
+		4849568B1B37F33F00DD8B7C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../ironlab/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		4849568C1B37F33F00DD8B7C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../ironlab/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		4849568D1B37F33F00DD8B7C /* FMDatabasePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../ironlab/FMDatabasePool.h; sourceTree = "<group>"; };
+		4849568E1B37F33F00DD8B7C /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../ironlab/FMDatabasePool.m; sourceTree = "<group>"; };
+		4849568F1B37F33F00DD8B7C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../ironlab/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		484956901B37F33F00DD8B7C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../ironlab/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		484956911B37F33F00DD8B7C /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../ironlab/FMDB.h; sourceTree = "<group>"; };
+		484956921B37F33F00DD8B7C /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../ironlab/FMResultSet.h; sourceTree = "<group>"; };
+		484956931B37F33F00DD8B7C /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../ironlab/FMResultSet.m; sourceTree = "<group>"; };
+		484956941B37F33F00DD8B7C /* GraphViewForVue360.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GraphViewForVue360.swift; path = ../ironlab/GraphViewForVue360.swift; sourceTree = "<group>"; };
+		484956951B37F33F00DD8B7C /* HomePageDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageDataManager.swift; path = ../ironlab/HomePageDataManager.swift; sourceTree = "<group>"; };
+		484956961B37F33F00DD8B7C /* HomePageMeetingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageMeetingsTableViewCell.swift; path = ../ironlab/HomePageMeetingsTableViewCell.swift; sourceTree = "<group>"; };
+		484956971B37F33F00DD8B7C /* HomePageV2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageV2ViewController.swift; path = ../ironlab/HomePageV2ViewController.swift; sourceTree = "<group>"; };
+		484956981B37F33F00DD8B7C /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomePageViewController.swift; path = ../ironlab/HomePageViewController.swift; sourceTree = "<group>"; };
+		484956991B37F33F00DD8B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../ironlab/Info.plist; sourceTree = "<group>"; };
+		4849569A1B37F33F00DD8B7C /* IronLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "IronLab-Bridging-Header.h"; path = "../ironlab/IronLab-Bridging-Header.h"; sourceTree = "<group>"; };
+		4849569B1B37F33F00DD8B7C /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoadingIndicator.swift; path = ../ironlab/LoadingIndicator.swift; sourceTree = "<group>"; };
+		4849569C1B37F33F00DD8B7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../ironlab/LoginViewController.swift; sourceTree = "<group>"; };
+		4849569D1B37F33F00DD8B7C /* MapForMeetingsOfDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapForMeetingsOfDayViewController.swift; path = ../ironlab/MapForMeetingsOfDayViewController.swift; sourceTree = "<group>"; };
+		4849569E1B37F33F00DD8B7C /* MapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapManager.swift; path = ../ironlab/MapManager.swift; sourceTree = "<group>"; };
+		4849569F1B37F33F00DD8B7C /* mapPositionOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mapPositionOfAccountViewController.swift; path = ../ironlab/mapPositionOfAccountViewController.swift; sourceTree = "<group>"; };
+		484956A01B37F33F00DD8B7C /* MeetingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetingsModel.swift; path = ../ironlab/MeetingsModel.swift; sourceTree = "<group>"; };
+		484956A11B37F33F00DD8B7C /* MeetingsOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetingsOfAccountViewController.swift; path = ../ironlab/MeetingsOfAccountViewController.swift; sourceTree = "<group>"; };
+		484956A21B37F33F00DD8B7C /* MeetingsOfHomePageAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeetingsOfHomePageAPI.swift; path = ../ironlab/MeetingsOfHomePageAPI.swift; sourceTree = "<group>"; };
+		484956A31B37F33F00DD8B7C /* OpportunityActivitiesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityActivitiesAPI.swift; path = ../ironlab/OpportunityActivitiesAPI.swift; sourceTree = "<group>"; };
+		484956A41B37F33F00DD8B7C /* OpportunityActivitiesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityActivitiesDataManager.swift; path = ../ironlab/OpportunityActivitiesDataManager.swift; sourceTree = "<group>"; };
+		484956A51B37F33F00DD8B7C /* OpportunityActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityActivitiesTableViewCell.swift; path = ../ironlab/OpportunityActivitiesTableViewCell.swift; sourceTree = "<group>"; };
+		484956A61B37F33F00DD8B7C /* OpportunityActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityActivitiesViewController.swift; path = ../ironlab/OpportunityActivitiesViewController.swift; sourceTree = "<group>"; };
+		484956A71B37F33F00DD8B7C /* OpportunityContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityContactsViewController.swift; path = ../ironlab/OpportunityContactsViewController.swift; sourceTree = "<group>"; };
+		484956A81B37F33F00DD8B7C /* OpportunityDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityDetailsViewController.swift; path = ../ironlab/OpportunityDetailsViewController.swift; sourceTree = "<group>"; };
+		484956A91B37F33F00DD8B7C /* OpportunityMeetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityMeetingsViewController.swift; path = ../ironlab/OpportunityMeetingsViewController.swift; sourceTree = "<group>"; };
+		484956AA1B37F33F00DD8B7C /* OpportunityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityModel.swift; path = ../ironlab/OpportunityModel.swift; sourceTree = "<group>"; };
+		484956AB1B37F33F00DD8B7C /* OpportunityQuotesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityQuotesAPI.swift; path = ../ironlab/OpportunityQuotesAPI.swift; sourceTree = "<group>"; };
+		484956AC1B37F33F00DD8B7C /* OpportunityQuotesDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityQuotesDataManager.swift; path = ../ironlab/OpportunityQuotesDataManager.swift; sourceTree = "<group>"; };
+		484956AD1B37F33F00DD8B7C /* OpportunityQuotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityQuotesTableViewCell.swift; path = ../ironlab/OpportunityQuotesTableViewCell.swift; sourceTree = "<group>"; };
+		484956AE1B37F33F00DD8B7C /* OpportunityQuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OpportunityQuotesViewController.swift; path = ../ironlab/OpportunityQuotesViewController.swift; sourceTree = "<group>"; };
+		484956AF1B37F33F00DD8B7C /* ParticipantsOfMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParticipantsOfMeetingViewController.swift; path = ../ironlab/ParticipantsOfMeetingViewController.swift; sourceTree = "<group>"; };
+		484956B01B37F33F00DD8B7C /* PipelineOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PipelineOfAccountViewController.swift; path = ../ironlab/PipelineOfAccountViewController.swift; sourceTree = "<group>"; };
+		484956B11B37F33F00DD8B7C /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProductTableViewCell.swift; path = ../ironlab/ProductTableViewCell.swift; sourceTree = "<group>"; };
+		484956B21B37F33F00DD8B7C /* RssFeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RssFeedTableViewCell.swift; path = ../ironlab/RssFeedTableViewCell.swift; sourceTree = "<group>"; };
+		484956B31B37F33F00DD8B7C /* RssFeedWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RssFeedWebViewController.swift; path = ../ironlab/RssFeedWebViewController.swift; sourceTree = "<group>"; };
+		484956B41B37F33F00DD8B7C /* SearchAccountsPerMeetingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchAccountsPerMeetingsTableViewCell.swift; path = ../ironlab/SearchAccountsPerMeetingsTableViewCell.swift; sourceTree = "<group>"; };
+		484956B51B37F33F00DD8B7C /* SearchAccountsPerNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchAccountsPerNameTableViewCell.swift; path = ../ironlab/SearchAccountsPerNameTableViewCell.swift; sourceTree = "<group>"; };
+		484956B61B37F33F00DD8B7C /* SearchForAccountsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForAccountsAPI.swift; path = ../ironlab/SearchForAccountsAPI.swift; sourceTree = "<group>"; };
+		484956B71B37F33F00DD8B7C /* SearchForAccountsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForAccountsDataManager.swift; path = ../ironlab/SearchForAccountsDataManager.swift; sourceTree = "<group>"; };
+		484956B81B37F33F00DD8B7C /* SearchForAccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForAccountsViewController.swift; path = ../ironlab/SearchForAccountsViewController.swift; sourceTree = "<group>"; };
+		484956B91B37F33F00DD8B7C /* SearchForContactsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForContactsAPI.swift; path = ../ironlab/SearchForContactsAPI.swift; sourceTree = "<group>"; };
+		484956BA1B37F33F00DD8B7C /* SearchForContactsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForContactsDataManager.swift; path = ../ironlab/SearchForContactsDataManager.swift; sourceTree = "<group>"; };
+		484956BB1B37F33F00DD8B7C /* SearchForContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForContactsViewController.swift; path = ../ironlab/SearchForContactsViewController.swift; sourceTree = "<group>"; };
+		484956BC1B37F33F00DD8B7C /* SearchForMeetingsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForMeetingsAPI.swift; path = ../ironlab/SearchForMeetingsAPI.swift; sourceTree = "<group>"; };
+		484956BD1B37F33F00DD8B7C /* SearchForMeetingsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForMeetingsDataManager.swift; path = ../ironlab/SearchForMeetingsDataManager.swift; sourceTree = "<group>"; };
+		484956BE1B37F33F00DD8B7C /* SearchForMeetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchForMeetingsViewController.swift; path = ../ironlab/SearchForMeetingsViewController.swift; sourceTree = "<group>"; };
+		484956C01B37F33F00DD8B7C /* SearchListOfOpportunityAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchListOfOpportunityAPI.swift; path = ../ironlab/SearchListOfOpportunityAPI.swift; sourceTree = "<group>"; };
+		484956C11B37F33F00DD8B7C /* SearchListOfOpportunityAToZTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchListOfOpportunityAToZTableViewCell.swift; path = ../ironlab/SearchListOfOpportunityAToZTableViewCell.swift; sourceTree = "<group>"; };
+		484956C21B37F33F00DD8B7C /* SearchListOfOpportunityCloseDateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchListOfOpportunityCloseDateTableViewCell.swift; path = ../ironlab/SearchListOfOpportunityCloseDateTableViewCell.swift; sourceTree = "<group>"; };
+		484956C31B37F33F00DD8B7C /* SearchListOfOpportunityDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchListOfOpportunityDataManager.swift; path = ../ironlab/SearchListOfOpportunityDataManager.swift; sourceTree = "<group>"; };
+		484956C41B37F33F00DD8B7C /* SearchListOfOpportunityStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchListOfOpportunityStatusTableViewCell.swift; path = ../ironlab/SearchListOfOpportunityStatusTableViewCell.swift; sourceTree = "<group>"; };
+		484956C51B37F33F00DD8B7C /* SearchListOfOpportunityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchListOfOpportunityTableViewController.swift; path = ../ironlab/SearchListOfOpportunityTableViewController.swift; sourceTree = "<group>"; };
+		484956C61B37F33F00DD8B7C /* SubDetailsOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubDetailsOfAccountViewController.swift; path = ../ironlab/SubDetailsOfAccountViewController.swift; sourceTree = "<group>"; };
+		484956C71B37F33F00DD8B7C /* SubDetailsOfMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SubDetailsOfMeetingViewController.swift; path = ../ironlab/SubDetailsOfMeetingViewController.swift; sourceTree = "<group>"; };
+		484956C81B37F33F00DD8B7C /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../ironlab/SWRevealViewController.h; sourceTree = "<group>"; };
+		484956C91B37F33F00DD8B7C /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../ironlab/SWRevealViewController.m; sourceTree = "<group>"; };
+		484956CA1B37F33F00DD8B7C /* UnderLinedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnderLinedLabel.swift; path = ../ironlab/UnderLinedLabel.swift; sourceTree = "<group>"; };
+		484956CB1B37F33F00DD8B7C /* Vue360OfAccountOfMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Vue360OfAccountOfMeetingViewController.swift; path = ../ironlab/Vue360OfAccountOfMeetingViewController.swift; sourceTree = "<group>"; };
+		484956CC1B37F33F00DD8B7C /* Vue360OfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Vue360OfAccountViewController.swift; path = ../ironlab/Vue360OfAccountViewController.swift; sourceTree = "<group>"; };
+		484956CD1B37F33F00DD8B7C /* WebsiteOfAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebsiteOfAccountViewController.swift; path = ../ironlab/WebsiteOfAccountViewController.swift; sourceTree = "<group>"; };
+		484956CE1B37F33F00DD8B7C /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XMLParser.swift; path = ../ironlab/XMLParser.swift; sourceTree = "<group>"; };
+		484956D01B37F33F00DD8B7C /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = ../ironlab/images.xcassets; sourceTree = "<group>"; };
+		4849574E1B37FF7D00DD8B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = ironlab/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		484957541B3832FB00DD8B7C /* DataBase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataBase.sqlite; sourceTree = "<group>"; };
+		484957571B383A2600DD8B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ironlab/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484957591B383E5B00DD8B7C /* CallReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallReportViewController.swift; path = ironlab/CallReportViewController.swift; sourceTree = SOURCE_ROOT; };
+		489C8B011B32FB9D00303B9D /* IronLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = IronLab.entitlements; sourceTree = "<group>"; };
+		489EDD4B1B3B0C3200F1E422 /* ParticipantsToMeetingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParticipantsToMeetingTableViewCell.swift; path = ironlab/ParticipantsToMeetingTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		48A11FDC1B0F075B004EB147 /* IronLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A11FF11B0F075B004EB147 /* IronLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A11FF61B0F075B004EB147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A11FF71B0F075B004EB147 /* IronLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronLabTests.swift; sourceTree = "<group>"; };
+		48B2F1BA1B3C44880000D55E /* HomePageAccountToFollowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePageAccountToFollowTableViewCell.swift; path = ironlab/HomePageAccountToFollowTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		48B555901B394FF900611975 /* MissingDocumentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MissingDocumentsTableViewCell.swift; path = ironlab/MissingDocumentsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		48B555921B396F9500611975 /* HomePageOpportunitiesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePageOpportunitiesTableViewCell.swift; path = ironlab/HomePageOpportunitiesTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		48B555971B398A6000611975 /* AddTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
+		48B555981B398A6000611975 /* UpdateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateTaskViewController.swift; sourceTree = "<group>"; };
+		48B5559D1B398A8700611975 /* ActivitiesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesModel.swift; sourceTree = "<group>"; };
+		48B5559F1B398D7000611975 /* CellTabOfTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CellTabOfTasks.swift; path = ../ironlab/CellTabOfTasks.swift; sourceTree = "<group>"; };
+		48B555A11B398DA600611975 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskViewController.swift; path = ../ironlab/TaskViewController.swift; sourceTree = "<group>"; };
+		9F45029E1B1F9A8D00D1C6AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9FEE7B3D1B124D7100FE4D58 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A11FD91B0F075B004EB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F45029F1B1F9A8E00D1C6AF /* MapKit.framework in Frameworks */,
+				9FEE7B3E1B124D7100FE4D58 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A11FEE1B0F075B004EB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484957381B37FA5700DD8B7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				484956AA1B37F33F00DD8B7C /* OpportunityModel.swift */,
+				4849566F1B37F33F00DD8B7C /* AgendaMeetingModel.swift */,
+				484956CE1B37F33F00DD8B7C /* XMLParser.swift */,
+				484956751B37F33F00DD8B7C /* ContactsModel.swift */,
+				4849567A1B37F33F00DD8B7C /* ContratModel.swift */,
+				4849566A1B37F33F00DD8B7C /* AccountsModel.swift */,
+				4849566D1B37F33F00DD8B7C /* ActivityModel.swift */,
+				484956A01B37F33F00DD8B7C /* MeetingsModel.swift */,
+				48B5559D1B398A8700611975 /* ActivitiesModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		484957391B37FA9700DD8B7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4849573C1B37FAEA00DD8B7C /* SWRevealViewController */,
+				4849573A1B37FAC300DD8B7C /* FMDB */,
+				4849573B1B37FAD100DD8B7C /* Database */,
+				484957481B37FD7900DD8B7C /* MapManager */,
+				484956701B37F33F00DD8B7C /* AppDelegate.swift */,
+				4849569A1B37F33F00DD8B7C /* IronLab-Bridging-Header.h */,
+				484956991B37F33F00DD8B7C /* Info.plist */,
+				4849574D1B37FF7D00DD8B7C /* LaunchScreen.xib */,
+				484956D01B37F33F00DD8B7C /* images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4849573A1B37FAC300DD8B7C /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				484956891B37F33F00DD8B7C /* FMDatabase.h */,
+				4849568A1B37F33F00DD8B7C /* FMDatabase.m */,
+				4849568B1B37F33F00DD8B7C /* FMDatabaseAdditions.h */,
+				4849568C1B37F33F00DD8B7C /* FMDatabaseAdditions.m */,
+				4849568D1B37F33F00DD8B7C /* FMDatabasePool.h */,
+				4849568E1B37F33F00DD8B7C /* FMDatabasePool.m */,
+				4849568F1B37F33F00DD8B7C /* FMDatabaseQueue.h */,
+				484956901B37F33F00DD8B7C /* FMDatabaseQueue.m */,
+				484956911B37F33F00DD8B7C /* FMDB.h */,
+				484956921B37F33F00DD8B7C /* FMResultSet.h */,
+				484956931B37F33F00DD8B7C /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		4849573B1B37FAD100DD8B7C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				484957541B3832FB00DD8B7C /* DataBase.sqlite */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		4849573C1B37FAEA00DD8B7C /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				484956C81B37F33F00DD8B7C /* SWRevealViewController.h */,
+				484956C91B37F33F00DD8B7C /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		4849573D1B37FB5200DD8B7C /* Opportunities */ = {
+			isa = PBXGroup;
+			children = (
+				4849574C1B37FEE500DD8B7C /* Master */,
+				484957501B37FF9700DD8B7C /* Details */,
+			);
+			name = Opportunities;
+			sourceTree = "<group>";
+		};
+		4849573E1B37FB5D00DD8B7C /* Meetings */ = {
+			isa = PBXGroup;
+			children = (
+				4849574B1B37FEC300DD8B7C /* Master */,
+				484957521B37FFE300DD8B7C /* Details */,
+			);
+			name = Meetings;
+			sourceTree = "<group>";
+		};
+		4849573F1B37FB6300DD8B7C /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				484957491B37FE9300DD8B7C /* Master */,
+				484957441B37FC7A00DD8B7C /* Details */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		484957401B37FB6700DD8B7C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				4849574A1B37FEB300DD8B7C /* Master */,
+				4849567E1B37F33F00DD8B7C /* DetailsOfContactViewController.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		484957411B37FB7300DD8B7C /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				484956951B37F33F00DD8B7C /* HomePageDataManager.swift */,
+				484956A21B37F33F00DD8B7C /* MeetingsOfHomePageAPI.swift */,
+				484956971B37F33F00DD8B7C /* HomePageV2ViewController.swift */,
+				484956981B37F33F00DD8B7C /* HomePageViewController.swift */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		484957421B37FB8A00DD8B7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				484956791B37F33F00DD8B7C /* ContainerForAccountDetails.swift */,
+				484956941B37F33F00DD8B7C /* GraphViewForVue360.swift */,
+				484956CA1B37F33F00DD8B7C /* UnderLinedLabel.swift */,
+				484956861B37F33F00DD8B7C /* DoughnutsForVue360.swift */,
+				484956871B37F33F00DD8B7C /* EurosClassificationView.swift */,
+				484956721B37F33F00DD8B7C /* CalendarView.swift */,
+				4849569B1B37F33F00DD8B7C /* LoadingIndicator.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		484957431B37FC0000DD8B7C /* UITableView cells */ = {
+			isa = PBXGroup;
+			children = (
+				48B5559F1B398D7000611975 /* CellTabOfTasks.swift */,
+				484956851B37F33F00DD8B7C /* DocumentsTableViewCell.swift */,
+				484956961B37F33F00DD8B7C /* HomePageMeetingsTableViewCell.swift */,
+				484956B21B37F33F00DD8B7C /* RssFeedTableViewCell.swift */,
+				484956C21B37F33F00DD8B7C /* SearchListOfOpportunityCloseDateTableViewCell.swift */,
+				48B555921B396F9500611975 /* HomePageOpportunitiesTableViewCell.swift */,
+				484956B11B37F33F00DD8B7C /* ProductTableViewCell.swift */,
+				484956B41B37F33F00DD8B7C /* SearchAccountsPerMeetingsTableViewCell.swift */,
+				48B555901B394FF900611975 /* MissingDocumentsTableViewCell.swift */,
+				484956C41B37F33F00DD8B7C /* SearchListOfOpportunityStatusTableViewCell.swift */,
+				489EDD4B1B3B0C3200F1E422 /* ParticipantsToMeetingTableViewCell.swift */,
+				484956B51B37F33F00DD8B7C /* SearchAccountsPerNameTableViewCell.swift */,
+				48214D7C1B3F3281003C1B9A /* HomePageAccountToFollowTestTableViewCell.swift */,
+				484956A51B37F33F00DD8B7C /* OpportunityActivitiesTableViewCell.swift */,
+				484956731B37F33F00DD8B7C /* CellForPipelineOfAccountTableViewCell.swift */,
+				48B2F1BA1B3C44880000D55E /* HomePageAccountToFollowTableViewCell.swift */,
+			);
+			name = "UITableView cells";
+			sourceTree = "<group>";
+		};
+		484957441B37FC7A00DD8B7C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				4849567B1B37F33F00DD8B7C /* DetailsOfAccountAPI.swift */,
+				4849567C1B37F33F00DD8B7C /* DetailsOfAccountDataManager.swift */,
+				4849567D1B37F33F00DD8B7C /* DetailsOfAccountViewController.swift */,
+				484957461B37FC9B00DD8B7C /* View controllers */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		484957461B37FC9B00DD8B7C /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				484956781B37F33F00DD8B7C /* ContainedMeetingsTableViewController.swift */,
+				4849566C1B37F33F00DD8B7C /* ActivitiesOfAccountViewController.swift */,
+				484956C61B37F33F00DD8B7C /* SubDetailsOfAccountViewController.swift */,
+				484956CC1B37F33F00DD8B7C /* Vue360OfAccountViewController.swift */,
+				484956881B37F33F00DD8B7C /* FirstStepCreatingMeetingOfAccount.swift */,
+				4849566E1B37F33F00DD8B7C /* AddParticipantsToMeetingOfAccountViewController.swift */,
+				484956771B37F33F00DD8B7C /* ContactsOfAccountViewController.swift */,
+				484956B01B37F33F00DD8B7C /* PipelineOfAccountViewController.swift */,
+				484956A11B37F33F00DD8B7C /* MeetingsOfAccountViewController.swift */,
+				4849569F1B37F33F00DD8B7C /* mapPositionOfAccountViewController.swift */,
+				484956CD1B37F33F00DD8B7C /* WebsiteOfAccountViewController.swift */,
+				4849569D1B37F33F00DD8B7C /* MapForMeetingsOfDayViewController.swift */,
+				484956761B37F33F00DD8B7C /* ContactsOfAccountTableViewCell.swift */,
+				484956B31B37F33F00DD8B7C /* RssFeedWebViewController.swift */,
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
+		484957481B37FD7900DD8B7C /* MapManager */ = {
+			isa = PBXGroup;
+			children = (
+				4849569E1B37F33F00DD8B7C /* MapManager.swift */,
+			);
+			name = MapManager;
+			sourceTree = "<group>";
+		};
+		484957491B37FE9300DD8B7C /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				484956B61B37F33F00DD8B7C /* SearchForAccountsAPI.swift */,
+				484956B71B37F33F00DD8B7C /* SearchForAccountsDataManager.swift */,
+				484956B81B37F33F00DD8B7C /* SearchForAccountsViewController.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		4849574A1B37FEB300DD8B7C /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				484956B91B37F33F00DD8B7C /* SearchForContactsAPI.swift */,
+				484956BA1B37F33F00DD8B7C /* SearchForContactsDataManager.swift */,
+				484956BB1B37F33F00DD8B7C /* SearchForContactsViewController.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		4849574B1B37FEC300DD8B7C /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				484956BC1B37F33F00DD8B7C /* SearchForMeetingsAPI.swift */,
+				484956BD1B37F33F00DD8B7C /* SearchForMeetingsDataManager.swift */,
+				484956BE1B37F33F00DD8B7C /* SearchForMeetingsViewController.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		4849574C1B37FEE500DD8B7C /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				484956C51B37F33F00DD8B7C /* SearchListOfOpportunityTableViewController.swift */,
+				484956C01B37F33F00DD8B7C /* SearchListOfOpportunityAPI.swift */,
+				484956C11B37F33F00DD8B7C /* SearchListOfOpportunityAToZTableViewCell.swift */,
+				484956C31B37F33F00DD8B7C /* SearchListOfOpportunityDataManager.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		484957501B37FF9700DD8B7C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				484956821B37F33F00DD8B7C /* DetailsOfOpportunityAPI.swift */,
+				484956831B37F33F00DD8B7C /* DetailsOfOpportunityDataManager.swift */,
+				484956841B37F33F00DD8B7C /* DetailsOfOpportunityViewController.swift */,
+				484957511B37FFA600DD8B7C /* View Controllers */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		484957511B37FFA600DD8B7C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				484956A31B37F33F00DD8B7C /* OpportunityActivitiesAPI.swift */,
+				484956A41B37F33F00DD8B7C /* OpportunityActivitiesDataManager.swift */,
+				484956A61B37F33F00DD8B7C /* OpportunityActivitiesViewController.swift */,
+				484956A71B37F33F00DD8B7C /* OpportunityContactsViewController.swift */,
+				484956A81B37F33F00DD8B7C /* OpportunityDetailsViewController.swift */,
+				484956A91B37F33F00DD8B7C /* OpportunityMeetingsViewController.swift */,
+				484956AB1B37F33F00DD8B7C /* OpportunityQuotesAPI.swift */,
+				484956AC1B37F33F00DD8B7C /* OpportunityQuotesDataManager.swift */,
+				482DAC5D1B4062250091EBED /* MeetingsOfAccountInOpportunityViewController.swift */,
+				484956AD1B37F33F00DD8B7C /* OpportunityQuotesTableViewCell.swift */,
+				484956AE1B37F33F00DD8B7C /* OpportunityQuotesViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		484957521B37FFE300DD8B7C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				4849567F1B37F33F00DD8B7C /* DetailsOfMeetingAPI.swift */,
+				484956801B37F33F00DD8B7C /* DetailsOfMeetingDataManager.swift */,
+				484956811B37F33F00DD8B7C /* DetailsOfMeetingViewController.swift */,
+				484957531B37FFFA00DD8B7C /* View Controllers */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		484957531B37FFFA00DD8B7C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				484956CB1B37F33F00DD8B7C /* Vue360OfAccountOfMeetingViewController.swift */,
+				4849566B1B37F33F00DD8B7C /* ActionPlanOfMeetingViewController.swift */,
+				484957591B383E5B00DD8B7C /* CallReportViewController.swift */,
+				484956C71B37F33F00DD8B7C /* SubDetailsOfMeetingViewController.swift */,
+				484956711B37F33F00DD8B7C /* AttachmentsOfMeetingViewController.swift */,
+				484956AF1B37F33F00DD8B7C /* ParticipantsOfMeetingViewController.swift */,
+				482DAC591B3FE7800091EBED /* LocationOfMeetingViewController.swift */,
+				48B555941B398A4B00611975 /* Activities */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		48A11FD31B0F075B004EB147 = {
+			isa = PBXGroup;
+			children = (
+				9F45029E1B1F9A8D00D1C6AF /* MapKit.framework */,
+				9FEE7B3D1B124D7100FE4D58 /* libsqlite3.dylib */,
+				48A11FDE1B0F075B004EB147 /* IronLab */,
+				48A11FF41B0F075B004EB147 /* IronLabTests */,
+				48A11FDD1B0F075B004EB147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A11FDD1B0F075B004EB147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A11FDC1B0F075B004EB147 /* IronLab.app */,
+				48A11FF11B0F075B004EB147 /* IronLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A11FDE1B0F075B004EB147 /* IronLab */ = {
+			isa = PBXGroup;
+			children = (
+				489C8B011B32FB9D00303B9D /* IronLab.entitlements */,
+				484956741B37F33F00DD8B7C /* Constants.swift */,
+				484957561B383A2600DD8B7C /* Main.storyboard */,
+				4849569C1B37F33F00DD8B7C /* LoginViewController.swift */,
+				484957381B37FA5700DD8B7C /* Models */,
+				484957411B37FB7300DD8B7C /* HomePage */,
+				484957401B37FB6700DD8B7C /* Contacts */,
+				4849573F1B37FB6300DD8B7C /* Accounts */,
+				4849573E1B37FB5D00DD8B7C /* Meetings */,
+				4849573D1B37FB5200DD8B7C /* Opportunities */,
+				484957421B37FB8A00DD8B7C /* Views */,
+				484957431B37FC0000DD8B7C /* UITableView cells */,
+				484957391B37FA9700DD8B7C /* Supporting Files */,
+			);
+			path = IronLab;
+			sourceTree = "<group>";
+		};
+		48A11FF41B0F075B004EB147 /* IronLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				48A11FF71B0F075B004EB147 /* IronLabTests.swift */,
+				48A11FF51B0F075B004EB147 /* Supporting Files */,
+			);
+			path = IronLabTests;
+			sourceTree = "<group>";
+		};
+		48A11FF51B0F075B004EB147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A11FF61B0F075B004EB147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B555941B398A4B00611975 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				48B555A11B398DA600611975 /* TaskViewController.swift */,
+				48B555971B398A6000611975 /* AddTask.swift */,
+				48B555981B398A6000611975 /* UpdateTaskViewController.swift */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A11FDB1B0F075B004EB147 /* IronLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A11FFB1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLab" */;
+			buildPhases = (
+				48A11FD81B0F075B004EB147 /* Sources */,
+				48A11FD91B0F075B004EB147 /* Frameworks */,
+				48A11FDA1B0F075B004EB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronLab;
+			productName = IronLab;
+			productReference = 48A11FDC1B0F075B004EB147 /* IronLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A11FF01B0F075B004EB147 /* IronLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A11FFE1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLabTests" */;
+			buildPhases = (
+				48A11FED1B0F075B004EB147 /* Sources */,
+				48A11FEE1B0F075B004EB147 /* Frameworks */,
+				48A11FEF1B0F075B004EB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A11FF31B0F075B004EB147 /* PBXTargetDependency */,
+			);
+			name = IronLabTests;
+			productName = IronLabTests;
+			productReference = 48A11FF11B0F075B004EB147 /* IronLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A11FD41B0F075B004EB147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "CSC CSC";
+				TargetAttributes = {
+					48A11FDB1B0F075B004EB147 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4K75J482AW;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					48A11FF01B0F075B004EB147 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 48A11FDB1B0F075B004EB147;
+					};
+				};
+			};
+			buildConfigurationList = 48A11FD71B0F075B004EB147 /* Build configuration list for PBXProject "ironlab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A11FD31B0F075B004EB147;
+			productRefGroup = 48A11FDD1B0F075B004EB147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A11FDB1B0F075B004EB147 /* IronLab */,
+				48A11FF01B0F075B004EB147 /* IronLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A11FDA1B0F075B004EB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484957581B383A2600DD8B7C /* Main.storyboard in Resources */,
+				4849574F1B37FF7D00DD8B7C /* LaunchScreen.xib in Resources */,
+				484957551B3832FB00DD8B7C /* DataBase.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A11FEF1B0F075B004EB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A11FD81B0F075B004EB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B555A21B398DA600611975 /* TaskViewController.swift in Sources */,
+				48B555A01B398D7000611975 /* CellTabOfTasks.swift in Sources */,
+				484956D11B37F33F00DD8B7C /* AccountsModel.swift in Sources */,
+				484956D21B37F33F00DD8B7C /* ActionPlanOfMeetingViewController.swift in Sources */,
+				484956D31B37F33F00DD8B7C /* ActivitiesOfAccountViewController.swift in Sources */,
+				484956D41B37F33F00DD8B7C /* ActivityModel.swift in Sources */,
+				484956D51B37F33F00DD8B7C /* AddParticipantsToMeetingOfAccountViewController.swift in Sources */,
+				484956D61B37F33F00DD8B7C /* AgendaMeetingModel.swift in Sources */,
+				484956D71B37F33F00DD8B7C /* AppDelegate.swift in Sources */,
+				484956D81B37F33F00DD8B7C /* AttachmentsOfMeetingViewController.swift in Sources */,
+				484956D91B37F33F00DD8B7C /* CalendarView.swift in Sources */,
+				484956DA1B37F33F00DD8B7C /* CellForPipelineOfAccountTableViewCell.swift in Sources */,
+				484956DB1B37F33F00DD8B7C /* Constants.swift in Sources */,
+				484956DC1B37F33F00DD8B7C /* ContactsModel.swift in Sources */,
+				484956DD1B37F33F00DD8B7C /* ContactsOfAccountTableViewCell.swift in Sources */,
+				484956DE1B37F33F00DD8B7C /* ContactsOfAccountViewController.swift in Sources */,
+				484956DF1B37F33F00DD8B7C /* ContainedMeetingsTableViewController.swift in Sources */,
+				48B5559E1B398A8700611975 /* ActivitiesModel.swift in Sources */,
+				484956E01B37F33F00DD8B7C /* ContainerForAccountDetails.swift in Sources */,
+				484956E11B37F33F00DD8B7C /* ContratModel.swift in Sources */,
+				48B555931B396F9500611975 /* HomePageOpportunitiesTableViewCell.swift in Sources */,
+				484956E21B37F33F00DD8B7C /* DetailsOfAccountAPI.swift in Sources */,
+				484956E31B37F33F00DD8B7C /* DetailsOfAccountDataManager.swift in Sources */,
+				482DAC5A1B3FE7800091EBED /* LocationOfMeetingViewController.swift in Sources */,
+				484956E41B37F33F00DD8B7C /* DetailsOfAccountViewController.swift in Sources */,
+				484956E51B37F33F00DD8B7C /* DetailsOfContactViewController.swift in Sources */,
+				484956E61B37F33F00DD8B7C /* DetailsOfMeetingAPI.swift in Sources */,
+				484956E71B37F33F00DD8B7C /* DetailsOfMeetingDataManager.swift in Sources */,
+				484956E81B37F33F00DD8B7C /* DetailsOfMeetingViewController.swift in Sources */,
+				484956E91B37F33F00DD8B7C /* DetailsOfOpportunityAPI.swift in Sources */,
+				484956EA1B37F33F00DD8B7C /* DetailsOfOpportunityDataManager.swift in Sources */,
+				484956EB1B37F33F00DD8B7C /* DetailsOfOpportunityViewController.swift in Sources */,
+				48B2F1BB1B3C44880000D55E /* HomePageAccountToFollowTableViewCell.swift in Sources */,
+				484956EC1B37F33F00DD8B7C /* DocumentsTableViewCell.swift in Sources */,
+				484956ED1B37F33F00DD8B7C /* DoughnutsForVue360.swift in Sources */,
+				48B5559C1B398A6000611975 /* UpdateTaskViewController.swift in Sources */,
+				484956EE1B37F33F00DD8B7C /* EurosClassificationView.swift in Sources */,
+				484956EF1B37F33F00DD8B7C /* FirstStepCreatingMeetingOfAccount.swift in Sources */,
+				48214D7D1B3F3281003C1B9A /* HomePageAccountToFollowTestTableViewCell.swift in Sources */,
+				484956F11B37F33F00DD8B7C /* FMDatabase.m in Sources */,
+				484956F31B37F33F00DD8B7C /* FMDatabaseAdditions.m in Sources */,
+				484956F51B37F33F00DD8B7C /* FMDatabasePool.m in Sources */,
+				484956F71B37F33F00DD8B7C /* FMDatabaseQueue.m in Sources */,
+				484956FA1B37F33F00DD8B7C /* FMResultSet.m in Sources */,
+				484956FB1B37F33F00DD8B7C /* GraphViewForVue360.swift in Sources */,
+				484956FC1B37F33F00DD8B7C /* HomePageDataManager.swift in Sources */,
+				484956FD1B37F33F00DD8B7C /* HomePageMeetingsTableViewCell.swift in Sources */,
+				489EDD4C1B3B0C3200F1E422 /* ParticipantsToMeetingTableViewCell.swift in Sources */,
+				484956FE1B37F33F00DD8B7C /* HomePageV2ViewController.swift in Sources */,
+				484956FF1B37F33F00DD8B7C /* HomePageViewController.swift in Sources */,
+				484957001B37F33F00DD8B7C /* Info.plist in Sources */,
+				484957021B37F33F00DD8B7C /* LoadingIndicator.swift in Sources */,
+				482DAC5E1B4062250091EBED /* MeetingsOfAccountInOpportunityViewController.swift in Sources */,
+				484957031B37F33F00DD8B7C /* LoginViewController.swift in Sources */,
+				484957041B37F33F00DD8B7C /* MapForMeetingsOfDayViewController.swift in Sources */,
+				484957051B37F33F00DD8B7C /* MapManager.swift in Sources */,
+				484957061B37F33F00DD8B7C /* mapPositionOfAccountViewController.swift in Sources */,
+				484957071B37F33F00DD8B7C /* MeetingsModel.swift in Sources */,
+				484957081B37F33F00DD8B7C /* MeetingsOfAccountViewController.swift in Sources */,
+				484957091B37F33F00DD8B7C /* MeetingsOfHomePageAPI.swift in Sources */,
+				4849570A1B37F33F00DD8B7C /* OpportunityActivitiesAPI.swift in Sources */,
+				4849570B1B37F33F00DD8B7C /* OpportunityActivitiesDataManager.swift in Sources */,
+				4849570C1B37F33F00DD8B7C /* OpportunityActivitiesTableViewCell.swift in Sources */,
+				4849570D1B37F33F00DD8B7C /* OpportunityActivitiesViewController.swift in Sources */,
+				4849570E1B37F33F00DD8B7C /* OpportunityContactsViewController.swift in Sources */,
+				4849570F1B37F33F00DD8B7C /* OpportunityDetailsViewController.swift in Sources */,
+				484957101B37F33F00DD8B7C /* OpportunityMeetingsViewController.swift in Sources */,
+				484957111B37F33F00DD8B7C /* OpportunityModel.swift in Sources */,
+				484957121B37F33F00DD8B7C /* OpportunityQuotesAPI.swift in Sources */,
+				484957131B37F33F00DD8B7C /* OpportunityQuotesDataManager.swift in Sources */,
+				484957141B37F33F00DD8B7C /* OpportunityQuotesTableViewCell.swift in Sources */,
+				484957151B37F33F00DD8B7C /* OpportunityQuotesViewController.swift in Sources */,
+				484957161B37F33F00DD8B7C /* ParticipantsOfMeetingViewController.swift in Sources */,
+				484957171B37F33F00DD8B7C /* PipelineOfAccountViewController.swift in Sources */,
+				48B5559B1B398A6000611975 /* AddTask.swift in Sources */,
+				484957181B37F33F00DD8B7C /* ProductTableViewCell.swift in Sources */,
+				484957191B37F33F00DD8B7C /* RssFeedTableViewCell.swift in Sources */,
+				4849571A1B37F33F00DD8B7C /* RssFeedWebViewController.swift in Sources */,
+				4849571B1B37F33F00DD8B7C /* SearchAccountsPerMeetingsTableViewCell.swift in Sources */,
+				4849571C1B37F33F00DD8B7C /* SearchAccountsPerNameTableViewCell.swift in Sources */,
+				4849571D1B37F33F00DD8B7C /* SearchForAccountsAPI.swift in Sources */,
+				4849571E1B37F33F00DD8B7C /* SearchForAccountsDataManager.swift in Sources */,
+				4849571F1B37F33F00DD8B7C /* SearchForAccountsViewController.swift in Sources */,
+				484957201B37F33F00DD8B7C /* SearchForContactsAPI.swift in Sources */,
+				4849575A1B383E5B00DD8B7C /* CallReportViewController.swift in Sources */,
+				484957211B37F33F00DD8B7C /* SearchForContactsDataManager.swift in Sources */,
+				484957221B37F33F00DD8B7C /* SearchForContactsViewController.swift in Sources */,
+				484957231B37F33F00DD8B7C /* SearchForMeetingsAPI.swift in Sources */,
+				484957241B37F33F00DD8B7C /* SearchForMeetingsDataManager.swift in Sources */,
+				484957251B37F33F00DD8B7C /* SearchForMeetingsViewController.swift in Sources */,
+				48B555911B394FF900611975 /* MissingDocumentsTableViewCell.swift in Sources */,
+				484957271B37F33F00DD8B7C /* SearchListOfOpportunityAPI.swift in Sources */,
+				484957281B37F33F00DD8B7C /* SearchListOfOpportunityAToZTableViewCell.swift in Sources */,
+				484957291B37F33F00DD8B7C /* SearchListOfOpportunityCloseDateTableViewCell.swift in Sources */,
+				4849572A1B37F33F00DD8B7C /* SearchListOfOpportunityDataManager.swift in Sources */,
+				4849572B1B37F33F00DD8B7C /* SearchListOfOpportunityStatusTableViewCell.swift in Sources */,
+				4849572C1B37F33F00DD8B7C /* SearchListOfOpportunityTableViewController.swift in Sources */,
+				4849572D1B37F33F00DD8B7C /* SubDetailsOfAccountViewController.swift in Sources */,
+				4849572E1B37F33F00DD8B7C /* SubDetailsOfMeetingViewController.swift in Sources */,
+				484957301B37F33F00DD8B7C /* SWRevealViewController.m in Sources */,
+				484957311B37F33F00DD8B7C /* UnderLinedLabel.swift in Sources */,
+				484957321B37F33F00DD8B7C /* Vue360OfAccountOfMeetingViewController.swift in Sources */,
+				484957331B37F33F00DD8B7C /* Vue360OfAccountViewController.swift in Sources */,
+				484957341B37F33F00DD8B7C /* WebsiteOfAccountViewController.swift in Sources */,
+				484957351B37F33F00DD8B7C /* XMLParser.swift in Sources */,
+				484957371B37F33F00DD8B7C /* images.xcassets in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A11FED1B0F075B004EB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A11FF81B0F075B004EB147 /* IronLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A11FF31B0F075B004EB147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A11FDB1B0F075B004EB147 /* IronLab */;
+			targetProxy = 48A11FF21B0F075B004EB147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4849574D1B37FF7D00DD8B7C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4849574E1B37FF7D00DD8B7C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		484957561B383A2600DD8B7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484957571B383A2600DD8B7C /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A11FF91B0F075B004EB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		48A11FFA1B0F075B004EB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A11FFC1B0F075B004EB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IronLab/IronLab.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = IronLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IronLab/IronLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A11FFD1B0F075B004EB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = IronLab/IronLab.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = IronLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IronLab/IronLab-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		48A11FFF1B0F075B004EB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IronLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronLab.app/IronLab";
+			};
+			name = Debug;
+		};
+		48A120001B0F075B004EB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IronLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronLab.app/IronLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A11FD71B0F075B004EB147 /* Build configuration list for PBXProject "ironlab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A11FF91B0F075B004EB147 /* Debug */,
+				48A11FFA1B0F075B004EB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A11FFB1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A11FFC1B0F075B004EB147 /* Debug */,
+				48A11FFD1B0F075B004EB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A11FFE1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A11FFF1B0F075B004EB147 /* Debug */,
+				48A120001B0F075B004EB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A11FD41B0F075B004EB147 /* Project object */;
+}

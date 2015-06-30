@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A11FE21B0F075B004EB147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A11FE11B0F075B004EB147 /* AppDelegate.swift */; };
+		48A11FE71B0F075B004EB147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A11FE51B0F075B004EB147 /* Main.storyboard */; };
+		48A11FE91B0F075B004EB147 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A11FE81B0F075B004EB147 /* Images.xcassets */; };
+		48A11FEC1B0F075B004EB147 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A11FEA1B0F075B004EB147 /* LaunchScreen.xib */; };
+		48A11FF81B0F075B004EB147 /* IronLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A11FF71B0F075B004EB147 /* IronLabTests.swift */; };
+		48A120051B0F0ED9004EB147 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A120041B0F0ED9004EB147 /* LoginViewController.swift */; };
+		48A120071B0F2EE6004EB147 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A120061B0F2EE6004EB147 /* HomePageViewController.swift */; };
+		48A120091B0F4E96004EB147 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A120081B0F4E96004EB147 /* CalendarView.swift */; };
+		48A1200E1B0F69A7004EB147 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A1200D1B0F69A7004EB147 /* Constants.swift */; };
+		9F3879EF1B13511E00BC1437 /* SearchAccountsPerMeetingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3879EE1B13511E00BC1437 /* SearchAccountsPerMeetingsTableViewCell.swift */; };
+		9F3879F11B13862A00BC1437 /* SearchAccountsPerNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3879F01B13862A00BC1437 /* SearchAccountsPerNameTableViewCell.swift */; };
+		9F3D52A81B14A23200246285 /* DetailsOfAccountAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D52A71B14A23200246285 /* DetailsOfAccountAPI.swift */; };
+		9F3D52AA1B14A6FB00246285 /* DetailsOfAccountDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D52A91B14A6FB00246285 /* DetailsOfAccountDataManager.swift */; };
+		9F3D52AC1B14CB4C00246285 /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D52AB1B14CB4C00246285 /* ContactsModel.swift */; };
+		9F3D52AE1B14D65200246285 /* OpportunitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D52AD1B14D65200246285 /* OpportunitiesModel.swift */; };
+		9F3D52B11B14DD4500246285 /* DoughnutsForVue360.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D52AF1B14DD4500246285 /* DoughnutsForVue360.swift */; };
+		9F3D52B21B14DD4500246285 /* GraphViewForVue360.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3D52B01B14DD4500246285 /* GraphViewForVue360.swift */; };
+		9F45029D1B1F4BE000D1C6AF /* MapForMeetingsOfDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F45029C1B1F4BE000D1C6AF /* MapForMeetingsOfDayViewController.swift */; };
+		9F45029F1B1F9A8E00D1C6AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F45029E1B1F9A8D00D1C6AF /* MapKit.framework */; };
+		9F4502A11B2084B500D1C6AF /* DataBase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9F4502A01B2084B500D1C6AF /* DataBase.sqlite */; };
+		9F4502A31B20C1FE00D1C6AF /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4502A21B20C1FD00D1C6AF /* XMLParser.swift */; };
+		9F5BDB0D1B145B490030C214 /* MeetingsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB0C1B145B490030C214 /* MeetingsOfAccountViewController.swift */; };
+		9F5BDB0F1B145B5B0030C214 /* Vue360OfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB0E1B145B5B0030C214 /* Vue360OfAccountViewController.swift */; };
+		9F5BDB111B145B850030C214 /* ContactsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB101B145B850030C214 /* ContactsOfAccountViewController.swift */; };
+		9F5BDB131B145BA00030C214 /* ActivitiesOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB121B145BA00030C214 /* ActivitiesOfAccountViewController.swift */; };
+		9F5BDB151B145BC40030C214 /* PipelineOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB141B145BC40030C214 /* PipelineOfAccountViewController.swift */; };
+		9F5BDB171B145BE30030C214 /* SubDetailsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB161B145BE30030C214 /* SubDetailsOfAccountViewController.swift */; };
+		9F5BDB191B146E990030C214 /* ContainerForAccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB181B146E990030C214 /* ContainerForAccountDetails.swift */; };
+		9F5BDB1B1B1481220030C214 /* UnderLinedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BDB1A1B1481220030C214 /* UnderLinedLabel.swift */; };
+		9F776AD01B1CA41C00A92048 /* ContactsOfAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F776ACF1B1CA41C00A92048 /* ContactsOfAccountTableViewCell.swift */; };
+		9FC8E7181B15CB4A007A6FAA /* ContainedMeetingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8E7171B15CB4A007A6FAA /* ContainedMeetingsTableViewController.swift */; };
+		9FC8E71A1B15EEB3007A6FAA /* FirstStepCreatingMeetingOfAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8E7191B15EEB2007A6FAA /* FirstStepCreatingMeetingOfAccount.swift */; };
+		9FC8E71C1B1632D7007A6FAA /* AddParticipantsToMeetingOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC8E71B1B1632D7007A6FAA /* AddParticipantsToMeetingOfAccountViewController.swift */; };
+		9FE91D5F1B13022500B09221 /* HomePageMeetingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE91D5E1B13022500B09221 /* HomePageMeetingsTableViewCell.swift */; };
+		9FE91D631B13087600B09221 /* SearchForAccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE91D621B13087600B09221 /* SearchForAccountsViewController.swift */; };
+		9FE91D651B1308B400B09221 /* SearchForAccountsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE91D641B1308B400B09221 /* SearchForAccountsAPI.swift */; };
+		9FE91D671B1308D200B09221 /* SearchForAccountsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE91D661B1308D200B09221 /* SearchForAccountsDataManager.swift */; };
+		9FE91D6B1B132D2000B09221 /* DetailsOfAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE91D6A1B132D2000B09221 /* DetailsOfAccountViewController.swift */; };
+		9FEE7B321B11D2A300FE4D58 /* MeetingsOfHomePageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B311B11D2A200FE4D58 /* MeetingsOfHomePageAPI.swift */; };
+		9FEE7B341B11F30F00FE4D58 /* MeetingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B331B11F30F00FE4D58 /* MeetingsModel.swift */; };
+		9FEE7B371B122DB400FE4D58 /* AccountsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B361B122DB400FE4D58 /* AccountsModel.swift */; };
+		9FEE7B3A1B123CA900FE4D58 /* HomePageDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B391B123CA900FE4D58 /* HomePageDataManager.swift */; };
+		9FEE7B3E1B124D7100FE4D58 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FEE7B3D1B124D7100FE4D58 /* libsqlite3.dylib */; };
+		9FEE7B4E1B124DF800FE4D58 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B441B124DF800FE4D58 /* FMDatabase.m */; };
+		9FEE7B4F1B124DF800FE4D58 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B461B124DF800FE4D58 /* FMDatabaseAdditions.m */; };
+		9FEE7B501B124DF800FE4D58 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B481B124DF800FE4D58 /* FMDatabasePool.m */; };
+		9FEE7B511B124DF800FE4D58 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B4A1B124DF800FE4D58 /* FMDatabaseQueue.m */; };
+		9FEE7B521B124DF800FE4D58 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B4D1B124DF800FE4D58 /* FMResultSet.m */; };
+		9FEE7B551B12808A00FE4D58 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FEE7B541B12808A00FE4D58 /* SWRevealViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48A11FF21B0F075B004EB147 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48A11FD41B0F075B004EB147 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48A11FDB1B0F075B004EB147;
+			remoteInfo = IronLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48A11FDC1B0F075B004EB147 /* IronLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A11FE01B0F075B004EB147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A11FE11B0F075B004EB147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48A11FE61B0F075B004EB147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48A11FE81B0F075B004EB147 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48A11FEB1B0F075B004EB147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48A11FF11B0F075B004EB147 /* IronLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IronLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A11FF61B0F075B004EB147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A11FF71B0F075B004EB147 /* IronLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IronLabTests.swift; sourceTree = "<group>"; };
+		48A120041B0F0ED9004EB147 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		48A120061B0F2EE6004EB147 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		48A120081B0F4E96004EB147 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		48A1200D1B0F69A7004EB147 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9F3879EE1B13511E00BC1437 /* SearchAccountsPerMeetingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAccountsPerMeetingsTableViewCell.swift; sourceTree = "<group>"; };
+		9F3879F01B13862A00BC1437 /* SearchAccountsPerNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAccountsPerNameTableViewCell.swift; sourceTree = "<group>"; };
+		9F3D52A71B14A23200246285 /* DetailsOfAccountAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsOfAccountAPI.swift; sourceTree = "<group>"; };
+		9F3D52A91B14A6FB00246285 /* DetailsOfAccountDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsOfAccountDataManager.swift; sourceTree = "<group>"; };
+		9F3D52AB1B14CB4C00246285 /* ContactsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsModel.swift; sourceTree = "<group>"; };
+		9F3D52AD1B14D65200246285 /* OpportunitiesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpportunitiesModel.swift; sourceTree = "<group>"; };
+		9F3D52AF1B14DD4500246285 /* DoughnutsForVue360.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoughnutsForVue360.swift; sourceTree = "<group>"; };
+		9F3D52B01B14DD4500246285 /* GraphViewForVue360.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewForVue360.swift; sourceTree = "<group>"; };
+		9F45029C1B1F4BE000D1C6AF /* MapForMeetingsOfDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapForMeetingsOfDayViewController.swift; sourceTree = "<group>"; };
+		9F45029E1B1F9A8D00D1C6AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9F4502A01B2084B500D1C6AF /* DataBase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataBase.sqlite; sourceTree = "<group>"; };
+		9F4502A21B20C1FD00D1C6AF /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		9F5BDB0C1B145B490030C214 /* MeetingsOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsOfAccountViewController.swift; sourceTree = "<group>"; };
+		9F5BDB0E1B145B5B0030C214 /* Vue360OfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vue360OfAccountViewController.swift; sourceTree = "<group>"; };
+		9F5BDB101B145B850030C214 /* ContactsOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsOfAccountViewController.swift; sourceTree = "<group>"; };
+		9F5BDB121B145BA00030C214 /* ActivitiesOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesOfAccountViewController.swift; sourceTree = "<group>"; };
+		9F5BDB141B145BC40030C214 /* PipelineOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PipelineOfAccountViewController.swift; sourceTree = "<group>"; };
+		9F5BDB161B145BE30030C214 /* SubDetailsOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubDetailsOfAccountViewController.swift; sourceTree = "<group>"; };
+		9F5BDB181B146E990030C214 /* ContainerForAccountDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerForAccountDetails.swift; sourceTree = "<group>"; };
+		9F5BDB1A1B1481220030C214 /* UnderLinedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderLinedLabel.swift; sourceTree = "<group>"; };
+		9F776ACF1B1CA41C00A92048 /* ContactsOfAccountTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsOfAccountTableViewCell.swift; sourceTree = "<group>"; };
+		9FC8E7171B15CB4A007A6FAA /* ContainedMeetingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainedMeetingsTableViewController.swift; sourceTree = "<group>"; };
+		9FC8E7191B15EEB2007A6FAA /* FirstStepCreatingMeetingOfAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstStepCreatingMeetingOfAccount.swift; sourceTree = "<group>"; };
+		9FC8E71B1B1632D7007A6FAA /* AddParticipantsToMeetingOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParticipantsToMeetingOfAccountViewController.swift; sourceTree = "<group>"; };
+		9FE91D5E1B13022500B09221 /* HomePageMeetingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageMeetingsTableViewCell.swift; sourceTree = "<group>"; };
+		9FE91D621B13087600B09221 /* SearchForAccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForAccountsViewController.swift; sourceTree = "<group>"; };
+		9FE91D641B1308B400B09221 /* SearchForAccountsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForAccountsAPI.swift; sourceTree = "<group>"; };
+		9FE91D661B1308D200B09221 /* SearchForAccountsDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForAccountsDataManager.swift; sourceTree = "<group>"; };
+		9FE91D6A1B132D2000B09221 /* DetailsOfAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsOfAccountViewController.swift; sourceTree = "<group>"; };
+		9FEE7B311B11D2A200FE4D58 /* MeetingsOfHomePageAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsOfHomePageAPI.swift; sourceTree = "<group>"; };
+		9FEE7B331B11F30F00FE4D58 /* MeetingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingsModel.swift; sourceTree = "<group>"; };
+		9FEE7B361B122DB400FE4D58 /* AccountsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsModel.swift; sourceTree = "<group>"; };
+		9FEE7B391B123CA900FE4D58 /* HomePageDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageDataManager.swift; sourceTree = "<group>"; };
+		9FEE7B3D1B124D7100FE4D58 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9FEE7B421B124DF700FE4D58 /* IronLab-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IronLab-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FEE7B431B124DF800FE4D58 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9FEE7B441B124DF800FE4D58 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9FEE7B451B124DF800FE4D58 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9FEE7B461B124DF800FE4D58 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9FEE7B471B124DF800FE4D58 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9FEE7B481B124DF800FE4D58 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9FEE7B491B124DF800FE4D58 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9FEE7B4A1B124DF800FE4D58 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9FEE7B4B1B124DF800FE4D58 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9FEE7B4C1B124DF800FE4D58 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9FEE7B4D1B124DF800FE4D58 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9FEE7B531B12808A00FE4D58 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9FEE7B541B12808A00FE4D58 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A11FD91B0F075B004EB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F45029F1B1F9A8E00D1C6AF /* MapKit.framework in Frameworks */,
+				9FEE7B3E1B124D7100FE4D58 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A11FEE1B0F075B004EB147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48A11FD31B0F075B004EB147 = {
+			isa = PBXGroup;
+			children = (
+				9F45029E1B1F9A8D00D1C6AF /* MapKit.framework */,
+				9FEE7B3D1B124D7100FE4D58 /* libsqlite3.dylib */,
+				48A11FDE1B0F075B004EB147 /* IronLab */,
+				48A11FF41B0F075B004EB147 /* IronLabTests */,
+				48A11FDD1B0F075B004EB147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48A11FDD1B0F075B004EB147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48A11FDC1B0F075B004EB147 /* IronLab.app */,
+				48A11FF11B0F075B004EB147 /* IronLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48A11FDE1B0F075B004EB147 /* IronLab */ = {
+			isa = PBXGroup;
+			children = (
+				48A1200D1B0F69A7004EB147 /* Constants.swift */,
+				48A11FE51B0F075B004EB147 /* Main.storyboard */,
+				48A120041B0F0ED9004EB147 /* LoginViewController.swift */,
+				9F3D52B31B14DD4D00246285 /* Views */,
+				9FEE7B351B122D9400FE4D58 /* Models */,
+				48A1200C1B0F6335004EB147 /* HomePage */,
+				9FE91D611B13084500B09221 /* Accounts */,
+				48A11FDF1B0F075B004EB147 /* Supporting Files */,
+			);
+			path = IronLab;
+			sourceTree = "<group>";
+		};
+		48A11FDF1B0F075B004EB147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE7B411B124DE400FE4D58 /* FMDB */,
+				9FEE7B561B12809200FE4D58 /* SWRevealViewController */,
+				48A120031B0F0955004EB147 /* dataBaseElement */,
+				48A11FE11B0F075B004EB147 /* AppDelegate.swift */,
+				9FEE7B421B124DF700FE4D58 /* IronLab-Bridging-Header.h */,
+				48A11FE01B0F075B004EB147 /* Info.plist */,
+				48A11FEA1B0F075B004EB147 /* LaunchScreen.xib */,
+				48A11FE81B0F075B004EB147 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A11FF41B0F075B004EB147 /* IronLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				48A11FF71B0F075B004EB147 /* IronLabTests.swift */,
+				48A11FF51B0F075B004EB147 /* Supporting Files */,
+			);
+			path = IronLabTests;
+			sourceTree = "<group>";
+		};
+		48A11FF51B0F075B004EB147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A11FF61B0F075B004EB147 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A120031B0F0955004EB147 /* dataBaseElement */ = {
+			isa = PBXGroup;
+			children = (
+				9F4502A01B2084B500D1C6AF /* DataBase.sqlite */,
+			);
+			name = dataBaseElement;
+			sourceTree = "<group>";
+		};
+		48A1200C1B0F6335004EB147 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				48A120061B0F2EE6004EB147 /* HomePageViewController.swift */,
+				9FE91D5E1B13022500B09221 /* HomePageMeetingsTableViewCell.swift */,
+				9FEE7B311B11D2A200FE4D58 /* MeetingsOfHomePageAPI.swift */,
+				9FEE7B391B123CA900FE4D58 /* HomePageDataManager.swift */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		9F3D52B31B14DD4D00246285 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48A120081B0F4E96004EB147 /* CalendarView.swift */,
+				9F5BDB1A1B1481220030C214 /* UnderLinedLabel.swift */,
+				9F3D52AF1B14DD4500246285 /* DoughnutsForVue360.swift */,
+				9F3D52B01B14DD4500246285 /* GraphViewForVue360.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9F5BDB0B1B145B0D0030C214 /* ViewControllers of account details */ = {
+			isa = PBXGroup;
+			children = (
+				9F776ACE1B1C552300A92048 /* Contacts */,
+				9FC8E7161B15CA3A007A6FAA /* Meetings */,
+				9F5BDB0E1B145B5B0030C214 /* Vue360OfAccountViewController.swift */,
+				9F5BDB121B145BA00030C214 /* ActivitiesOfAccountViewController.swift */,
+				9F5BDB141B145BC40030C214 /* PipelineOfAccountViewController.swift */,
+				9F5BDB161B145BE30030C214 /* SubDetailsOfAccountViewController.swift */,
+			);
+			name = "ViewControllers of account details";
+			sourceTree = "<group>";
+		};
+		9F776ACE1B1C552300A92048 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BDB101B145B850030C214 /* ContactsOfAccountViewController.swift */,
+				9F776ACF1B1CA41C00A92048 /* ContactsOfAccountTableViewCell.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		9FC8E7161B15CA3A007A6FAA /* Meetings */ = {
+			isa = PBXGroup;
+			children = (
+				9F5BDB0C1B145B490030C214 /* MeetingsOfAccountViewController.swift */,
+				9FC8E7171B15CB4A007A6FAA /* ContainedMeetingsTableViewController.swift */,
+				9FC8E7191B15EEB2007A6FAA /* FirstStepCreatingMeetingOfAccount.swift */,
+				9FC8E71B1B1632D7007A6FAA /* AddParticipantsToMeetingOfAccountViewController.swift */,
+				9F45029C1B1F4BE000D1C6AF /* MapForMeetingsOfDayViewController.swift */,
+			);
+			name = Meetings;
+			sourceTree = "<group>";
+		};
+		9FE91D611B13084500B09221 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				9FE91D681B132C1200B09221 /* Master */,
+				9FE91D691B132C2900B09221 /* Detail */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		9FE91D681B132C1200B09221 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				9FE91D621B13087600B09221 /* SearchForAccountsViewController.swift */,
+				9FE91D641B1308B400B09221 /* SearchForAccountsAPI.swift */,
+				9FE91D661B1308D200B09221 /* SearchForAccountsDataManager.swift */,
+				9F3879EE1B13511E00BC1437 /* SearchAccountsPerMeetingsTableViewCell.swift */,
+				9F3879F01B13862A00BC1437 /* SearchAccountsPerNameTableViewCell.swift */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		9FE91D691B132C2900B09221 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9FE91D6A1B132D2000B09221 /* DetailsOfAccountViewController.swift */,
+				9F5BDB181B146E990030C214 /* ContainerForAccountDetails.swift */,
+				9F3D52A71B14A23200246285 /* DetailsOfAccountAPI.swift */,
+				9F3D52A91B14A6FB00246285 /* DetailsOfAccountDataManager.swift */,
+				9F5BDB0B1B145B0D0030C214 /* ViewControllers of account details */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		9FEE7B351B122D9400FE4D58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE7B331B11F30F00FE4D58 /* MeetingsModel.swift */,
+				9FEE7B361B122DB400FE4D58 /* AccountsModel.swift */,
+				9F4502A21B20C1FD00D1C6AF /* XMLParser.swift */,
+				9F3D52AB1B14CB4C00246285 /* ContactsModel.swift */,
+				9F3D52AD1B14D65200246285 /* OpportunitiesModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9FEE7B411B124DE400FE4D58 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE7B431B124DF800FE4D58 /* FMDatabase.h */,
+				9FEE7B441B124DF800FE4D58 /* FMDatabase.m */,
+				9FEE7B451B124DF800FE4D58 /* FMDatabaseAdditions.h */,
+				9FEE7B461B124DF800FE4D58 /* FMDatabaseAdditions.m */,
+				9FEE7B471B124DF800FE4D58 /* FMDatabasePool.h */,
+				9FEE7B481B124DF800FE4D58 /* FMDatabasePool.m */,
+				9FEE7B491B124DF800FE4D58 /* FMDatabaseQueue.h */,
+				9FEE7B4A1B124DF800FE4D58 /* FMDatabaseQueue.m */,
+				9FEE7B4B1B124DF800FE4D58 /* FMDB.h */,
+				9FEE7B4C1B124DF800FE4D58 /* FMResultSet.h */,
+				9FEE7B4D1B124DF800FE4D58 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		9FEE7B561B12809200FE4D58 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9FEE7B531B12808A00FE4D58 /* SWRevealViewController.h */,
+				9FEE7B541B12808A00FE4D58 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A11FDB1B0F075B004EB147 /* IronLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A11FFB1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLab" */;
+			buildPhases = (
+				48A11FD81B0F075B004EB147 /* Sources */,
+				48A11FD91B0F075B004EB147 /* Frameworks */,
+				48A11FDA1B0F075B004EB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronLab;
+			productName = IronLab;
+			productReference = 48A11FDC1B0F075B004EB147 /* IronLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48A11FF01B0F075B004EB147 /* IronLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A11FFE1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLabTests" */;
+			buildPhases = (
+				48A11FED1B0F075B004EB147 /* Sources */,
+				48A11FEE1B0F075B004EB147 /* Frameworks */,
+				48A11FEF1B0F075B004EB147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48A11FF31B0F075B004EB147 /* PBXTargetDependency */,
+			);
+			name = IronLabTests;
+			productName = IronLabTests;
+			productReference = 48A11FF11B0F075B004EB147 /* IronLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A11FD41B0F075B004EB147 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "CSC CSC";
+				TargetAttributes = {
+					48A11FDB1B0F075B004EB147 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					48A11FF01B0F075B004EB147 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 48A11FDB1B0F075B004EB147;
+					};
+				};
+			};
+			buildConfigurationList = 48A11FD71B0F075B004EB147 /* Build configuration list for PBXProject "IronLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A11FD31B0F075B004EB147;
+			productRefGroup = 48A11FDD1B0F075B004EB147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A11FDB1B0F075B004EB147 /* IronLab */,
+				48A11FF01B0F075B004EB147 /* IronLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A11FDA1B0F075B004EB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4502A11B2084B500D1C6AF /* DataBase.sqlite in Resources */,
+				48A11FE71B0F075B004EB147 /* Main.storyboard in Resources */,
+				48A11FEC1B0F075B004EB147 /* LaunchScreen.xib in Resources */,
+				48A11FE91B0F075B004EB147 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A11FEF1B0F075B004EB147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A11FD81B0F075B004EB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BDB0F1B145B5B0030C214 /* Vue360OfAccountViewController.swift in Sources */,
+				9F5BDB111B145B850030C214 /* ContactsOfAccountViewController.swift in Sources */,
+				9F3D52B11B14DD4500246285 /* DoughnutsForVue360.swift in Sources */,
+				9F5BDB191B146E990030C214 /* ContainerForAccountDetails.swift in Sources */,
+				9FE91D631B13087600B09221 /* SearchForAccountsViewController.swift in Sources */,
+				48A1200E1B0F69A7004EB147 /* Constants.swift in Sources */,
+				9F5BDB131B145BA00030C214 /* ActivitiesOfAccountViewController.swift in Sources */,
+				9FEE7B501B124DF800FE4D58 /* FMDatabasePool.m in Sources */,
+				9F3D52B21B14DD4500246285 /* GraphViewForVue360.swift in Sources */,
+				9FE91D671B1308D200B09221 /* SearchForAccountsDataManager.swift in Sources */,
+				9FEE7B551B12808A00FE4D58 /* SWRevealViewController.m in Sources */,
+				9FEE7B521B124DF800FE4D58 /* FMResultSet.m in Sources */,
+				9F3D52AC1B14CB4C00246285 /* ContactsModel.swift in Sources */,
+				9FEE7B3A1B123CA900FE4D58 /* HomePageDataManager.swift in Sources */,
+				9F4502A31B20C1FE00D1C6AF /* XMLParser.swift in Sources */,
+				9F3D52AA1B14A6FB00246285 /* DetailsOfAccountDataManager.swift in Sources */,
+				9FEE7B341B11F30F00FE4D58 /* MeetingsModel.swift in Sources */,
+				9F5BDB1B1B1481220030C214 /* UnderLinedLabel.swift in Sources */,
+				9F5BDB0D1B145B490030C214 /* MeetingsOfAccountViewController.swift in Sources */,
+				9F3879F11B13862A00BC1437 /* SearchAccountsPerNameTableViewCell.swift in Sources */,
+				9FEE7B511B124DF800FE4D58 /* FMDatabaseQueue.m in Sources */,
+				9FE91D651B1308B400B09221 /* SearchForAccountsAPI.swift in Sources */,
+				9F3D52AE1B14D65200246285 /* OpportunitiesModel.swift in Sources */,
+				9F5BDB171B145BE30030C214 /* SubDetailsOfAccountViewController.swift in Sources */,
+				9F5BDB151B145BC40030C214 /* PipelineOfAccountViewController.swift in Sources */,
+				9FEE7B4E1B124DF800FE4D58 /* FMDatabase.m in Sources */,
+				9FC8E71C1B1632D7007A6FAA /* AddParticipantsToMeetingOfAccountViewController.swift in Sources */,
+				48A120051B0F0ED9004EB147 /* LoginViewController.swift in Sources */,
+				9F45029D1B1F4BE000D1C6AF /* MapForMeetingsOfDayViewController.swift in Sources */,
+				9F776AD01B1CA41C00A92048 /* ContactsOfAccountTableViewCell.swift in Sources */,
+				48A11FE21B0F075B004EB147 /* AppDelegate.swift in Sources */,
+				48A120091B0F4E96004EB147 /* CalendarView.swift in Sources */,
+				9FC8E71A1B15EEB3007A6FAA /* FirstStepCreatingMeetingOfAccount.swift in Sources */,
+				9FE91D5F1B13022500B09221 /* HomePageMeetingsTableViewCell.swift in Sources */,
+				9F3879EF1B13511E00BC1437 /* SearchAccountsPerMeetingsTableViewCell.swift in Sources */,
+				9FEE7B4F1B124DF800FE4D58 /* FMDatabaseAdditions.m in Sources */,
+				9FEE7B321B11D2A300FE4D58 /* MeetingsOfHomePageAPI.swift in Sources */,
+				9F3D52A81B14A23200246285 /* DetailsOfAccountAPI.swift in Sources */,
+				48A120071B0F2EE6004EB147 /* HomePageViewController.swift in Sources */,
+				9FEE7B371B122DB400FE4D58 /* AccountsModel.swift in Sources */,
+				9FC8E7181B15CB4A007A6FAA /* ContainedMeetingsTableViewController.swift in Sources */,
+				9FE91D6B1B132D2000B09221 /* DetailsOfAccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48A11FED1B0F075B004EB147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A11FF81B0F075B004EB147 /* IronLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48A11FF31B0F075B004EB147 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48A11FDB1B0F075B004EB147 /* IronLab */;
+			targetProxy = 48A11FF21B0F075B004EB147 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48A11FE51B0F075B004EB147 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A11FE61B0F075B004EB147 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48A11FEA1B0F075B004EB147 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A11FEB1B0F075B004EB147 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A11FF91B0F075B004EB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		48A11FFA1B0F075B004EB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A11FFC1B0F075B004EB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = IronLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IronLab/IronLab-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A11FFD1B0F075B004EB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = IronLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IronLab/IronLab-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		48A11FFF1B0F075B004EB147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IronLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronLab.app/IronLab";
+			};
+			name = Debug;
+		};
+		48A120001B0F075B004EB147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IronLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IronLab.app/IronLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A11FD71B0F075B004EB147 /* Build configuration list for PBXProject "IronLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A11FF91B0F075B004EB147 /* Debug */,
+				48A11FFA1B0F075B004EB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A11FFB1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A11FFC1B0F075B004EB147 /* Debug */,
+				48A11FFD1B0F075B004EB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A11FFE1B0F075B004EB147 /* Build configuration list for PBXNativeTarget "IronLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A11FFF1B0F075B004EB147 /* Debug */,
+				48A120001B0F075B004EB147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48A11FD41B0F075B004EB147 /* Project object */;
+}
